@@ -1,68 +1,19 @@
 import { Link } from "react-router-dom";
+import Sidebar from "../components/sidebar";
+import Header from "../components/header";
+import Body from "../components/body-header";
 function Home() {
     return (
         <>
             {/* sidebar */}
-            <div className='w-fit md:w-[250px] md:px-5 px-3 flex flex-col  items-center shadow-xl'>
-                <h3 className="text-lg font-bold mt-5">Aboood
-                </h3>
-                <div className="w-24 h-0.5 mt-4 md:flex hidden justify-between items-center">
-                    <div className="w-10 h-full bg-black"></div>
-                    <div className="w-3 h-3 rounded-full  bg-black"></div>
-                    <div className="w-10 h-full bg-black"></div>
-                </div>
-                <nav className="mt-5 w-full md:block flex flex-col justify-center items-center">
-                    <Link to={"/"} className="side-link active">
-                        <i class="fa-regular fa-chart-bar fa-fw"></i>
-                        <span className="side-span">Dashboard</span>
-                    </Link>
-                    <Link to={"/setting"} className="side-link">
-                        <i class="fa-solid fa-gear fa-fw"></i>
-                        <span className="side-span">Setting</span>
-                    </Link>
-                    <Link to={"/profile"} className="side-link">
-                        <i class="fa-regular fa-user fa-fw"></i>
-                        <span className="side-span">Profile</span>
-                    </Link>
-                    <Link to={"/projects"} className="side-link">
-                        <i class="fa-solid fa-diagram-project fa-fw"></i>
-                        <span className="side-span">Project</span>
-                    </Link>
-                    <Link to={"/courses"} className="side-link">
-                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
-                        <span className="side-span">Courses</span>
-                    </Link>
-                    <Link to={"/friends"} className="side-link">
-                        <i class="fa-regular fa-circle-user fa-fw"></i>
-                        <span className="side-span">Friends</span>
-                    </Link>
-                    <Link to={"/files"} className="side-link">
-                        <i class="fa-regular fa-file fa-fw"></i>
-                        <span className="side-span">Files</span>
-                    </Link>
-                    <Link to={"/plans"} className="side-link">
-                        <i class="fa-regular fa-credit-card fa-fw"></i>
-                        <span className="side-span">Plans</span>
-                    </Link>
-                </nav>
-            </div>
+            <Sidebar />
             {/* body */}
             <div className="w-full">
                 {/* header */}
-                <div className=" py-4 px-4 flex justify-between items-center">
-                    <div className="relative w-fit focus:w-60">
-                        <i class="fas fa-search absolute top-1/2 -translate-y-1/2 left-2"></i>
-                        <input type="search" placeholder="type a keyword" className="form-input pl-8 w-44 md:focus:w-56 transition-width duration-500 rounded" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <i class="fa-regular fa-bell fa-lg"></i>
-                        <img src="avatar.png" alt="avatar" className="w-10 h-10 rounded-full ml-4" />
-                    </div>
-                </div>
+                <Header />
                 {/* home body name */}
                 <div className="bg-[#f1f5f9] p-4">
-                    <h2 className="text-4xl font-medium">Dashboard</h2>
-                    <span className="block relative w-44 h-0.5 my-3 before:w-1/3 before:h-full before:bg-black before:absolute bg-white" />
+                    <Body name="Dashboard" />
                     {/* body */}
                     <div className="grid 2xl:grid-cols-3 xl:grid-cols-2 grid-cols-1 gap-4">
                         {/*start first card */}
@@ -511,7 +462,7 @@ function Home() {
                         </div>
                     </div>
                     {/* end card number 12 */}
-                    {/* start table */}
+                    {/* start table
                     <div className="card my-3 w-full">
                         <h2 className="main-title">Projects</h2>
                         <div className="overflow-x-auto">
@@ -625,7 +576,7 @@ function Home() {
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> */}
                     {/* end table */}
                 </div>
             </div>
