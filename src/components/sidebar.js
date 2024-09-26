@@ -5,7 +5,7 @@ function Sidebar() {
 
     return (
         <>
-            <div className='w-fit md:w-[250px] md:px-5 px-3 flex flex-col  items-center shadow-xl'>
+            <div className='w-fit md:w-[250px] md:px-5 px-3 flex flex-col  items-center shadow-xl z-50 shadow-gray-300'>
                 <h3 className="text-lg font-bold mt-5">Aboood</h3>
                 <div className="w-24 h-0.5 mt-4 md:flex hidden justify-between items-center">
                     <div className="w-10 h-full bg-black"></div>
@@ -27,7 +27,7 @@ function Sidebar() {
                     </Link>
                     <Link to={"/projects"} className="side-link">
                         <i class="fa-solid fa-diagram-project fa-fw"></i>
-                        <span className="side-span">Project</span>
+                        <span className="side-span">Projects</span>
                     </Link>
                     <Link to={"/courses"} className="side-link">
                         <i class="fa-solid fa-graduation-cap fa-fw"></i>

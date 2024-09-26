@@ -4,7 +4,7 @@ function Header() {
             <div className=" py-4 px-4 flex justify-between items-center">
                 <div className="relative w-fit focus:w-60">
                     <i class="fas fa-search absolute top-1/2 -translate-y-1/2 left-2"></i>
-                    <input type="search" placeholder="type a keyword" className="form-input pl-8 w-44 md:focus:w-56 transition-width duration-500 rounded" />
+                    <input type="search" placeholder="type a keyword" className="py-3 pl-8 w-44 md:focus:w-56 transition-width duration-500 rounded border border-black outline-none" />
                 </div>
                 <div className="flex justify-center items-center">
                     <i class="fa-regular fa-bell fa-lg"></i>

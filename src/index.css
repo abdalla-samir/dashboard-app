@@ -141,4 +141,28 @@
     .animation i{
         @apply animate-bounce;
     }
+    .friends {
+        @apply p-4 bg-white rounded-md
+    }
+    .join-date {
+        @apply text-gray-500 text-sm;
+    }
+    .friends-card-link {
+        @apply py-1 px-3 text-white rounded-md font-medium text-sm;
+    }
+    .friend-contact {
+        @apply bg-[#eee] hover:bg-blue-500 w-8 h-8 rounded-full flex justify-center items-center text-gray-600 hover:text-white text-sm transition cursor-pointer;
+    }
+    .vip {
+        @apply text-4xl mr-2 font-bold text-orange-300 opacity-40;
+    }
+    .course-info {
+        @apply absolute left-1/2 -top-[14px] -translate-x-1/2 py-1 px-2 bg-blue-600 text-sm font-medium text-white rounded-md
+    }
+    .proj-team-skills {
+        @apply py-1 px-2 bg-[#eee] rounded-md text-sm w-fit;
+    }
+    .embedded-images {
+        @apply w-10 rounded-full p-0.5 bg-white -ml-4 hover:z-50 cursor-pointer;
+    }
 }

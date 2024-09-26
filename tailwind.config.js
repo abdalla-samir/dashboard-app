@@ -10,7 +10,7 @@ module.exports = {
         'calc-one': 'calc(50% - 10px)', // Example: custom width using calc
       },
       minHeight: {
-        'screen-height': 'calc(100vh - 74px)',
+        'screen-height': 'calc(100vh - 82px)',
       },
       keyframes: {
         pong: {
