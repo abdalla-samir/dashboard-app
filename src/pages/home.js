@@ -12,7 +12,7 @@ function Home() {
                 {/* header */}
                 <Header />
                 {/* home body name */}
-                <div className="bg-[#f1f5f9] p-4">
+                <div className="main-body-height">
                     <Body name="Dashboard" />
                     {/* body */}
                     <div className="grid 2xl:grid-cols-3 xl:grid-cols-2 grid-cols-1 gap-4">

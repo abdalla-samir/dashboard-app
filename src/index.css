@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+    .main-body-height {
+        @apply bg-[#f1f5f9] p-4 min-h-screen-height;
+    }
     .flexbox {
         @apply flex justify-between items-center py-2;
     }
@@ -98,5 +101,44 @@
     }
     .table-status {
         @apply py-0.5 px-3 text-sm text-white rounded-md font-medium;
+    }
+    .plans-card {
+        @apply p-4  bg-white;
+    }
+    .plans-card-header {
+        @apply w-full text-center py-8 border-4 border-white outline  text-white;
+    }
+    .plans-card-h2 {
+        @apply text-3xl font-medium ;
+    }
+    .plans-card-price {
+        @apply text-4xl font-medium relative w-fit mx-auto;
+    }
+    .plans-card-span {
+        @apply text-2xl absolute -left-4 -top-1
+    }
+    .plans-card-ul {
+        @apply my-4
+    }
+    .plans-card-li {
+        @apply py-3 border-b flex justify-between items-center
+    }
+    .yes {
+        @apply text-green-500;
+    }
+    .no {
+        @apply text-red-500;
+    }
+    .join-link {
+        @apply py-1 px-2 text-white rounded-md text-lg font-medium
+    }
+    .file-card {
+        @apply p-2 bg-white rounded-md
+    }
+    .file-image {
+        @apply w-16 mx-auto mb-2 hover:rotate-3 transition;
+    }
+    .animation i{
+        @apply animate-bounce;
     }
 }

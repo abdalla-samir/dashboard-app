@@ -9,6 +9,9 @@ module.exports = {
       width: {
         'calc-one': 'calc(50% - 10px)', // Example: custom width using calc
       },
+      minHeight: {
+        'screen-height': 'calc(100vh - 74px)',
+      },
       keyframes: {
         pong: {
           '75%, 100%': {
@@ -16,10 +19,15 @@ module.exports = {
             opacity: '0',
           },
         },
+        bounce: {
+          '0%, 100%': { transform: 'translateY(-20%)' },
+          '50%': { transform: 'translateY(20%)' },
+        }
       },
       animation: {
         pong: 'pong 1.4s linear infinite',
-      }
+        bounce: 'bounce 1s ease infinite'
+      },
     },
   },
   plugins: [require("@tailwindcss/forms")({
