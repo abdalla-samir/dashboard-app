@@ -22,7 +22,7 @@ function ProjectCard(props) {
                 </div>
                 <div className="flex flex-col md:flex-row gap-3 justify-between items-center">
                     <div className="w-64 min-w-52 bg-[#eee] h-2 relative rounded-md">
-                        <span className={`w-${props.prog} h-full top-0 bg-${props.spancolor}-500 left-0 absolute rounded-md`}></span>
+                        <span className={`w-${props.prog} h-full top-0 bg-${props.spancolor}-500 left-0 absolute rounded-md block`}></span>
                     </div>
                     <div className="text-gray-500">
                         <i class="fa-solid fa-dollar-sign"></i><span className="ml-1">{props.cost}</span>

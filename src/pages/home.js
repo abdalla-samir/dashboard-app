@@ -115,28 +115,30 @@ function Home() {
                         {/* end third card */}
                         {/* start fourth card */}
                         <div className="card">
-                            <h2 className="main-title">Tickets Statistics</h2>
-                            <p className="header-p">Everything About Support Tickets</p>
-                            <div className="container flex gap-[5px] flex-wrap my-3">
-                                <div className="flex flex-col gap-1 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
-                                    <i class="fa-regular fa-rectangle-list fa-2x text-orange-400"></i>
-                                    <span className="text-2xl font-medium">2500</span>
-                                    <span className="text-gray-500">Total</span>
-                                </div>
-                                <div className="flex flex-col gap-2 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
-                                    <i class="fa-solid fa-spinner fa-2x text-blue-500"></i>
-                                    <span className="text-2xl font-medium">500</span>
-                                    <span className="text-gray-500">Pending</span>
-                                </div>
-                                <div className="flex flex-col gap-2 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
-                                    <i class="fa-regular fa-circle-check fa-2x text-green-500"></i>
-                                    <span className="text-2xl font-medium">1900</span>
-                                    <span className="text-gray-500">Closed</span>
-                                </div>
-                                <div className="flex flex-col gap-2 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
-                                    <i class="fa-regular fa-rectangle-xmark fa-2x text-red-500"></i>
-                                    <span className="text-2xl font-medium">100</span>
-                                    <span className="text-gray-500">Deleted</span>
+                            <div className="flex flex-col">
+                                <h2 className="main-title">Tickets Statistics</h2>
+                                <p className="header-p">Everything About Support Tickets</p>
+                                <div className="flex justify-center gap-[5px] flex-wrap my-3">
+                                    <div className="flex flex-col gap-1 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
+                                        <i class="fa-regular fa-rectangle-list fa-2x text-orange-400"></i>
+                                        <span className="text-2xl font-medium">2500</span>
+                                        <span className="text-gray-500">Total</span>
+                                    </div>
+                                    <div className="flex flex-col gap-2 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
+                                        <i class="fa-solid fa-spinner fa-2x text-blue-500"></i>
+                                        <span className="text-2xl font-medium">500</span>
+                                        <span className="text-gray-500">Pending</span>
+                                    </div>
+                                    <div className="flex flex-col gap-2 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
+                                        <i class="fa-regular fa-circle-check fa-2x text-green-500"></i>
+                                        <span className="text-2xl font-medium">1900</span>
+                                        <span className="text-gray-500">Closed</span>
+                                    </div>
+                                    <div className="flex flex-col gap-2 text-center border border-gray-500 w-full sm:w-calc-one p-4 rounded-md">
+                                        <i class="fa-regular fa-rectangle-xmark fa-2x text-red-500"></i>
+                                        <span className="text-2xl font-medium">100</span>
+                                        <span className="text-gray-500">Deleted</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -461,123 +463,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* end card number 12 */}
-                    {/* start table
-                    <div className="card my-3 w-full">
-                        <h2 className="main-title">Projects</h2>
-                        <div className="overflow-x-auto">
-                            <table className="w-full min-w-[1000px] border border-gray-200">
-                                <thead>
-                                    <tr className="text-lg font-medium bg-[#eee]">
-                                        <td className="thead-td">Name</td>
-                                        <td className="thead-td">Finish Date</td>
-                                        <td className="thead-td">Client</td>
-                                        <td className="thead-td">Price</td>
-                                        <td className="thead-td">Team</td>
-                                        <td className="thead-td">Status</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td className="tbody-td">Ministry Wikipedia</td>
-                                        <td className="tbody-td">10 May 2022</td>
-                                        <td className="tbody-td">Ministry</td>
-                                        <td className="tbody-td">$5300</td>
-                                        <td className="tbody-td">
-                                            <div className="flex">
-                                                <img src="team-01.png" alt="team_image" className="team-image m-0" />
-                                                <img src="team-02.png" alt="team_image" className="team-image" />
-                                                <img src="team-03.png" alt="team_image" className="team-image" />
-                                                <img src="team-05.png" alt="team_image" className="team-image" />
-                                            </div>
-                                        </td>
-                                        <td className="tbody-td">
-                                            <span className="table-status bg-orange-400">Pending</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="tbody-td">Elzero Shop</td>
-                                        <td className="tbody-td">12 Oct 2021E</td>
-                                        <td className="tbody-td">Elzero Company</td>
-                                        <td className="tbody-td">$1500</td>
-                                        <td className="tbody-td">
-                                            <div className="flex">
-                                                <img src="team-01.png" alt="team_image" className="team-image m-0" />
-                                                <img src="team-02.png" alt="team_image" className="team-image" />
-                                                <img src="team-05.png" alt="team_image" className="team-image" />
-                                            </div>
-                                        </td>
-                                        <td className="tbody-td">
-                                            <span className="table-status bg-blue-500">In Progress</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="tbody-td">Bouba App</td>
-                                        <td className="tbody-td">05 Sep 2021</td>
-                                        <td className="tbody-td">Bouba</td>
-                                        <td className="tbody-td">$800</td>
-                                        <td className="tbody-td">
-                                            <div className="flex">
-                                                <img src="team-02.png" alt="team_image" className="team-image m-0" />
-                                                <img src="team-03.png" alt="team_image" className="team-image" />
-                                            </div>
-                                        </td>
-                                        <td className="tbody-td">
-                                            <span className="table-status bg-green-500">Completed</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="tbody-td">Mahmoud Website</td>
-                                        <td className="tbody-td">Mahmoud Website</td>
-                                        <td className="tbody-td">Mahmoud</td>
-                                        <td className="tbody-td">$600</td>
-                                        <td className="tbody-td">
-                                            <div className="flex">
-                                                <img src="team-01.png" alt="team_image" className="team-image m-0" />
-                                                <img src="team-02.png" alt="team_image" className="team-image" />
-                                            </div>
-                                        </td>
-                                        <td className="tbody-td">
-                                            <span className="table-status bg-green-500">Completed</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="tbody-td">Sayed Website</td>
-                                        <td className="tbody-td">24 May 2021</td>
-                                        <td className="tbody-td">Sayed</td>
-                                        <td className="tbody-td">$300</td>
-                                        <td className="tbody-td">
-                                            <div className="flex">
-                                                <img src="team-01.png" alt="team_image" className="team-image m-0" />
-                                                <img src="team-03.png" alt="team_image" className="team-image" />
-                                            </div>
-                                        </td>
-                                        <td className="tbody-td">
-                                            <span className="table-status bg-red-500">Rejected</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="tbody-td">Arena Application</td>
-                                        <td className="tbody-td">01 Mar 2021</td>
-                                        <td className="tbody-td">Arena Company</td>
-                                        <td className="tbody-td">$2600</td>
-                                        <td className="tbody-td">
-                                            <div className="flex">
-                                                <img src="team-01.png" alt="team_image" className="team-image m-0" />
-                                                <img src="team-02.png" alt="team_image" className="team-image" />
-                                                <img src="team-03.png" alt="team_image" className="team-image" />
-                                                <img src="team-04.png" alt="team_image" className="team-image" />
-                                            </div>
-                                        </td>
-                                        <td className="tbody-td">
-                                            <span className="table-status bg-green-500">Completed</span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div> */}
-                    {/* end table */}
+
                 </div>
             </div>
         </>

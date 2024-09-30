@@ -5,9 +5,9 @@ function Sidebar() {
 
     return (
         <>
-            <div className='w-fit md:w-[250px] md:px-5 px-3 flex flex-col  items-center shadow-xl z-50 shadow-gray-300'>
-                <h3 className="text-lg font-bold mt-5">Aboood</h3>
-                <div className="w-24 h-0.5 mt-4 md:flex hidden justify-between items-center">
+            <div className='w-fit md:min-w-[170px] md:px-5 px-3 flex flex-col  items-center shadow-xl z-50 shadow-gray-300'>
+                <h3 className="md:text-lg text-sm font-bold md:mt-5 mt-3">Abdalla</h3>
+                <div className="w-24 h-0.5 mt-2 md:flex hidden justify-between items-center">
                     <div className="w-10 h-full bg-black"></div>
                     <div className="w-3 h-3 rounded-full  bg-black"></div>
                     <div className="w-10 h-full bg-black"></div>
@@ -17,9 +17,9 @@ function Sidebar() {
                         <i class="fa-regular fa-chart-bar fa-fw"></i>
                         <span className="side-span">Dashboard</span>
                     </Link>
-                    <Link to={"/setting"} className="side-link">
+                    <Link to={"/settings"} className="side-link">
                         <i class="fa-solid fa-gear fa-fw"></i>
-                        <span className="side-span">Setting</span>
+                        <span className="side-span">Settings</span>
                     </Link>
                     <Link to={"/profile"} className="side-link">
                         <i class="fa-regular fa-user fa-fw"></i>

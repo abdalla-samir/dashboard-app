@@ -1,6 +1,5 @@
 import Body from "../components/body-header";
 import FileCard from "../components/file-cards";
-import Download from "../components/file-cards";
 import Header from "../components/header";
 import Sidebar from "../components/sidebar";
 

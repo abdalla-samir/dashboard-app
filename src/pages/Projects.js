@@ -27,7 +27,7 @@ function Projects() {
                             firstimage="yes" secondimage="yes" thirdimage="yes" fourthimage="no " fifthimage="no"
                             skillone="yes" skilltwo="yes" skillthree="no" skillfour="no"
                             spancolor="green"
-                            prog="1/2"
+                            prog="4/5"
                             cost="1800" />
                         <ProjectCard
                             header="Chatting Application"
@@ -36,7 +36,7 @@ function Projects() {
                             firstimage="yes" secondimage="yes" thirdimage="yes" fourthimage="no " fifthimage="no"
                             skillone="no" skilltwo="yes" skillthree="no" skillfour="no"
                             spancolor="blue"
-                            prog="1/2"
+                            prog="4/5"
                             cost="950" />
                         <ProjectCard
                             header="Ahmed Dashboard"
@@ -45,7 +45,7 @@ function Projects() {
                             firstimage="yes" secondimage="yes" thirdimage="yes" fourthimage="yes" fifthimage="no"
                             skillone="yes" skilltwo="yes" skillthree="yes" skillfour="yes"
                             spancolor="green"
-                            prog="1/2"
+                            prog="4/5"
                             cost="1700" />
                         <ProjectCard
                             header="Ahmed Portal"
@@ -54,7 +54,7 @@ function Projects() {
                             firstimage="yes" secondimage="yes" thirdimage="yes" fourthimage="no " fifthimage="no"
                             skillone="yes" skilltwo="yes" skillthree="no" skillfour="no"
                             spancolor="green"
-                            prog="3/4"
+                            prog="4/5"
                             cost="850" />
                         <ProjectCard
                             header="Mohamed Application"
@@ -63,7 +63,7 @@ function Projects() {
                             firstimage="yes" secondimage="yes" thirdimage="yes" fourthimage="no " fifthimage="no"
                             skillone="no" skilltwo="yes" skillthree="no" skillfour="no"
                             spancolor="red"
-                            prog="1/2"
+                            prog="4/5"
                             cost="950" />
                         <ProjectCard
                             header="Mohamed Dashboard"
@@ -72,7 +72,7 @@ function Projects() {
                             firstimage="yes" secondimage="yes" thirdimage="yes" fourthimage="no " fifthimage="yes"
                             skillone="yes" skilltwo="yes" skillthree="yes" skillfour="yes"
                             spancolor="green"
-                            prog="3/4"
+                            prog="4/5"
                             cost="1950" />
                         <ProjectCard
                             header="Mohamed Portal"
@@ -81,7 +81,7 @@ function Projects() {
                             firstimage="yes" secondimage="yes" thirdimage="yes" fourthimage="no " fifthimage="no"
                             skillone="yes" skilltwo="yes" skillthree="no" skillfour="no"
                             spancolor="green"
-                            prog="3/4"
+                            prog="4/5"
                             cost="1650" />
                         <ProjectCard
                             header="Ahmed Application"

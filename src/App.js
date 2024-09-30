@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Alert from "./pages/pagenotfound";
 import Setting from "./pages/setting";
@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/setting" element={<Setting />} />
+          <Route path="/settings" element={<Setting />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/courses" element={<Courses />} />
